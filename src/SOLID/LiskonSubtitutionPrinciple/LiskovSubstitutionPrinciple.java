@@ -6,5 +6,7 @@ public class LiskovSubstitutionPrinciple {
         SavingsAccount sa = new SavingsAccount();
 
         fd.getBalance();
+        sa.withDraw(100);
+        sa.getBalance();
     }
 }
